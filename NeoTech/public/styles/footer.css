@@ -4,9 +4,7 @@
     width: 100%;
     display: flex;
     align-items: center ;
-    
     justify-content: center;
-	min-height: 500px;
 }
 
 
@@ -17,7 +15,6 @@
     justify-content: center;
 	width: 100%;
 	text-align: center;
-	height: 350px;
 	background-color: var(--dark-grey);
 }
 .footer .icon_footer{
@@ -31,6 +28,7 @@
 	width: 100px;
 	margin: 10px;
 	flex-wrap: wrap;
+	margin-top: 20px;
 }
 
 .footer a{
@@ -55,6 +53,11 @@
 	text-align: center;
 }
 
+.icon-content {
+	display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 
 
